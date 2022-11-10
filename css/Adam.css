@@ -1,0 +1,483 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Poppins, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.ad {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
+
+        url(../img/sliderimg02.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    position: fixed;
+    width: 100%;
+    background-color: transparent;
+    z-index: 2;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav li ul{
+    position: absolute;
+    top: 80px;
+    left: 990px;
+    width: 300px;
+    background-color: white;
+    display: none;
+    border-top: 5px solid #df152d;
+    list-style: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+nav .nn li ul #lll a:hover{
+    color: #df152d;
+}
+
+.nn li ul a{
+    color: gray;
+}
+
+.nn li ul a:hover{
+    color: #df152d;
+}
+
+nav li ul a {
+    width: 100%;
+    border-top: 1px solid white;
+    list-style: none;
+    color: black;
+}
+
+nav li:focus-within > ul,
+nav li:hover > ul{
+    display: initial;
+}
+
+.scrolled{
+    background-color: white;
+    z-index: 10000;
+    color: rgb(36, 36, 36);
+    height: 13vh;
+    transition: all 0.5s linear;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.scrolled .nn a{
+    color: #333333;
+    font-size: 16px;
+}
+
+.nn {
+    display: flex;
+    gap: 2em;
+    padding-top: 20px;
+}
+
+.nn a {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+.nn a:hover {
+    color: #df152d;
+}
+
+.ad {
+    text-align: center;
+    padding-top: 18.5em;
+}
+
+.bb {
+    background-color: #df152d;
+    width: 230px;
+    height: 60px;
+    border: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.bb a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.bb:hover {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.flex {
+    background-color: white;
+    height: 130vh;
+}
+
+.fle {
+    display: flex;
+    justify-content: space-around;
+}
+
+hr{
+    color: #df152d;
+}
+
+.gg h1 {
+    border-bottom: 4px solid #df152d;
+}
+
+.th {
+    padding-left: 100px;
+}
+
+.kk {
+    display: flex;
+    gap: 1em;
+}
+
+.nex {
+    margin-top: 300px;
+    background-color: whitesmoke;
+}
+
+.nann {
+    text-align: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.nann p {
+    font-size: 20px;
+    color: rgb(112, 110, 110);
+}
+
+.veh {
+    display: flex;
+    gap: 7em;
+    padding: 50px 170px;
+}
+
+.veh h1 {
+    font-size: 23px;
+    font-weight: 400;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.veh p {
+    font-size: 19px;
+    font-weight: 400;
+    color: rgb(70, 70, 70);
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.sec{
+    background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
+    
+    url(../img/sliderimg01.jpg);
+    height: 130vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 70px;
+}
+
+.sec p{
+    font-size: 17px;
+}
+
+.vis{
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+    text-align: center;
+}
+
+.vi{
+    background-color: #df152d;
+    color: white;
+    border: 2px solid white;
+    border-radius: 500px;
+    width: 30px;
+    margin-left: 200px;
+    font-size: 30px;
+}
+
+.vis h3{
+    color: white;
+    font-size: 20px;
+}
+
+.pp{
+    color: white;
+    font-size: 20px;
+    padding: 20px 5px;
+}
+
+.vis p{
+    color: white;
+    font-size: 20px
+}
+
+.meet{
+    background-color: white;
+    align-items: center;
+    padding-top:70px;
+}
+
+.perso{
+    display: flex;
+    justify-content: space-around;
+    gap: 3em;
+    padding: 30px 120px;
+    box-sizing: border-box;
+}
+
+.perso img{
+    border-radius: 500px;
+    width: 200px;
+    height: 200px;
+}
+
+.imm{
+    color: gray;
+    font-size: 25px;
+}
+
+.cell{
+    width: 25%;
+    height: 270px;
+    overflow: hidden;
+    position: relative;
+}
+
+.cell img{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.cell img:hover{
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+    border-radius: 8px;
+}
+
+.overlay{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    height: 250px;
+    background-color: #000;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.cell:hover .overlay{
+    opacity: 0.4;
+}
+
+.para{
+    font-size: 27px;
+    color: white;
+    position: absolute;
+    opacity: 0;
+    bottom: 30%;
+    left: 40%;
+    transition: 0.5s ease-in-out;
+}
+
+.cell:hover .para{
+    opacity: 1;
+    bottom: 50%;
+}
+
+.carousel-item{
+    text-align: center;
+}
+
+.carousel-inner{
+    font-size: 23px;
+    color: #4d4d4d;
+}
+
+.ci{
+    font-size: 16px;
+    color: #4d4d4d;
+}
+
+.carousel{
+    background-color: white;
+}
+
+.alllin{
+    background: whitesmoke;
+    padding-bottom: 100px;
+}
+
+.inm{
+    display: flex;
+    justify-content: space-around;
+}
+
+.frm{
+    display: flex;
+    justify-content: space-around;
+    gap: 4em;
+}
+
+.forrm{
+    background-color: white;
+    border: none;
+    padding: 28px;
+    margin-top: 3em;
+    height: 700px;
+    
+}
+
+form{
+    margin-right: 150px;
+    margin-bottom: 500px;
+}
+
+form label{
+    font-size: 17px;
+}
+
+form input{
+    border: 1px solid #ced4da;
+    text-align: center;
+    outline-color: #df152d;
+    opacity: 1;
+}
+
+form textarea{
+    border: 1px solid #ced4da;
+    outline-color: #df152d;
+}
+
+form button{
+    margin-top: 0.5em;
+    background-color: #df152d;
+    width: 180px;
+    height: 50px;
+    border: 1px solid #df152d;
+}
+
+form button a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+form button a:hover{
+    color: white;
+}
+
+.addre{
+    background-color: white;
+    border: 2px solid white;
+    padding: 38px;
+}
+
+.sdr h1{
+    font-size: 18px;
+    color: #df152d;
+    font-weight: bolder;
+    font-family: Poppins, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.sdr p{
+    font-size: 18px;
+    color: #df152d;
+    font-weight: lighter;
+    font-family: Poppins, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.inform{
+    background-color: white;
+    border: 2px solid white;
+    padding: 38px;
+    margin-top: 1em;
+}
+
+.eend{
+    background-color: #333333;
+    height: 600px;
+}
+
+.end{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.end h1{
+    color: white;
+    font-size: 19px;
+}
+
+.end p{
+    color: gray;
+    font-size: 18px;
+}
+
+.end a{
+    text-decoration: none;
+    color: gray;
+    transition: all 0.5s ease;
+    font-size: 18px;
+}
+
+.end a:hover{
+    color: white;
+}
+
+.end button{
+    width: 70px;
+    height: 40px;
+    position: absolute;
+    left: 1242px;
+    background-color: #df152d;
+    border: 10px solid #df152d;
+}
+
+.end button a{
+    color: white;
+}
+
+.we{
+    padding-top: 100px;
+    padding-right: 50px;
+}
+
+.we input{
+    outline: 0.5px solid gray;
+    border: none;
+    color: white;
+}
+
+.wee{
+    display: flex;
+    gap: 2em;
+    font-size: 20px;
+    color: gray;
+    transition: all 0.5s ease;
+}
+
+.wee i:hover{
+    color: white;
+    cursor: pointer;
+}
